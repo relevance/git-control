@@ -1,0 +1,17 @@
+git init
+git status
+git add README 
+git commit -m 'initial commit'
+git status
+git checkout -b f1
+git add f1.txt 
+git commit -m 'initial implementation of f1'
+git checkout master
+git checkout -b f2
+git add f2.txt 
+git commit -m "initial impl of f2"
+git checkout master
+gitk --all
+git merge f1 f2
+gitk --all
+

@@ -1,0 +1,13 @@
+You have probably heard about Git by now, perhaps something along these lines: "Git is a version control system, and it is more powerful than Subversion in every way. You don't even have to be online to commit!"
+
+This is true, but it undersells Git. Git is not the next step in the evolution of centralized source control, following in the footsteps of CVS, SVN, etc. These tools provide centralized history of deltas, where Git provides distributed history of trees of content. In this talk, you will see the advantages of the Git approach:
+
+    * Incredible speed.
+    * Local, disconnected operation.
+    * Source control workflow customized to your team. Centralized, distributed, or layered, you can build it with Git.
+    * Cheap and easy branching, tagging, and merging.
+    * Editing and refactoring your commits.
+
+The Git community prefers power to ease-of-use, and so Git's user interface and documentation can be intimidating. You will learn the straight and narrow path for common, day-to-day Git operations. You will also learn Git's underlying data model, and get a quick introduction to more advanced concepts like submodules, cherry-picking, and bisection.
+
+As a final bonus, you will see how to use Git on an existing SVN project. You can use Git as your SVN client, and the rest of the team can stay on SVN and not even care.
