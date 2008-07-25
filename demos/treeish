@@ -1,0 +1,30 @@
+SHA
+2a7abf6075d7fecc3f67984473fb23029b4fbec7
+
+Partial SHA
+2a7abf
+
+Name
+master
+release-1
+
+Date
+master@{1 month ago}
+
+Carrot
+HEAD^,   HEAD^2
+
+Tilde
+HEAD~5	same as HEAD^^^^^
+
+----------------------------
+
+Prior (LOCAL!)
+master@{5}
+
+Tree 
+Append {tree}
+git ls-tree master^{tree}
+
+Blob
+Append /path

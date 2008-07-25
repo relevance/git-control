@@ -1,0 +1,15 @@
+(working on a branch)
+git add (wip)
+git stash
+
+critical bug fix on master
+git checkout master
+git add (fixes)
+git commit
+
+back to the branch & unstash
+git checkout branch
+git unstash apply stash@{index}
+
+cleanup
+git stash clear

@@ -12,6 +12,4 @@ git add f2.txt
 git commit -m "initial impl of f2"
 git checkout master
 gitk --all
-git merge f1 f2
-gitk --all
 

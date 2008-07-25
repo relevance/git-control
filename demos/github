@@ -1,0 +1,7 @@
+git remote add spicycode git://github.com/spicycode/tarantula.
+git fetch spicycode
+git checkout -b trial
+git merge spicycode/master
+git diff HEAD^
+git remote add chriso git://github.com/thechrisoshow/tarantula.git
+

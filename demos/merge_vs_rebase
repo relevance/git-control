@@ -1,0 +1,19 @@
+(work on master)
+(work on feature-1)
+(work on feature-2)
+(work on master)
+
+(merge master into feature-1)
+git log --all
+git log --all --pretty=oneline
+git checkout feature-1
+git merge master
+git status
+
+(rebase master into feature-2)
+git log --all --pretty=oneline
+git checkout feature-2
+git rebase master
+git log --all --pretty=oneline
+
+(repeat, with merge conflicts)

@@ -1,0 +1,6 @@
+git show 
+  minimal display
+git ls-tre
+  dump the tree
+git cat-file 
+  info on any object in the git filesystem
