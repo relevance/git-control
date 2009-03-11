@@ -1,0 +1,32 @@
+git ls-files
+git count-objects to see how many items
+git log 
+  since/until
+  printf like format flags
+git show-ref
+  local,remote,tag references
+git ls-tree
+  can be recursive
+git cat-file -p
+  can print anything
+git show-branch
+  shows relationship between the branches
+git patch for demos
+  (make multiple changes at once)
+git commit -v to see diffs while editing
+
+git reset --hard 
+  blow away local changes to working copy and index
+
+
+run update-server-info to "tweak" dumb protocol
+  this is doable via a post commit hook
+can do demo against file system with local repositories
+
+question:
+would you want to rebase a commit that somebody else already pushed?
+   what would they then see?
+Run though this example
+
+
+
